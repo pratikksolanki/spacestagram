@@ -1,0 +1,75 @@
+.loadingWrapper{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.space-gradient {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 1.6rem;
+    background-image: linear-gradient(300deg, #0b132b, #4b3f72);
+    background-size: 800% 800%;
+    -webkit-animation: GradientMotion 2.5s ease infinite;
+    -moz-animation: GradientMotion 2.5s ease infinite;
+    -o-animation: GradientMotion 2.5s ease infinite;
+    animation: GradientMotion 2.5s ease infinite; 
+    border-radius: 980px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(52, 41, 88, 0.534) 0px 0px 64px 0px;
+    
+}
+
+h2, p{
+    color: #FFF;
+}
+
+
+
+@-webkit-keyframes GradientMotion {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@-moz-keyframes GradientMotion {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes GradientMotion {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .space-gradient{
+        font-size: 0.65rem;
+    }
+}

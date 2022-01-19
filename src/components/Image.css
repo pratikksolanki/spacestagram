@@ -1,0 +1,70 @@
+.imageCard{
+    width: 500px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-bottom: 5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.imageCard:hover{
+    box-shadow: rgba(41, 61, 88, 0.534) 0px 0px 48px 0px;
+}
+
+.imageTitleWrapper{
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.imageTitle{
+    font-size: 1.3rem;
+    color: #0b132b;
+    font-weight: 800;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    margin-bottom: 1.5rem;
+    height: 1.5rem;
+}
+
+.imageDate{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+}
+
+.imageContent{
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.imageCaption{
+font-size: 14px;
+height: 200px;
+overflow-y: scroll;
+padding: 0 1rem;
+padding-bottom: 1.5rem;
+color: #121212;
+}
+
+.imagesWrapper{
+    width: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+    .imageCard{
+        width: 90vw;
+    }
+
+}
