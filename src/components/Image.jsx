@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Image.css'
 import LikeButton from './LikeButton';
-import PropTypes from 'prop-types';
 
 function Image({ image }) {
-
-    const [like, setLike] = useState(false)
 
     return (
         <div className="imageCard">
