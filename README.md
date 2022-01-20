@@ -29,7 +29,7 @@ In addition to the core technical requirements of this challenge, this project:
 ## Technologies Used
 - React
 - [NASA APOD API](https://api.nasa.gov/)
-- [react-icons](https://www.npmjs.com/package/react-icons)
+- [react-icons](https://www.npmjs.com/package/react-icons) Library (for the heart button)
 
 ## Project Structure
 ```
