@@ -6,7 +6,7 @@ Here is my challenge submission for Shopify's Summer 2022 Front End developer in
  
  ## Table of Contents
 - [Introduction](#introduction)
-- [Core Features](#core-features)
+- [Added Features](#added-features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 
