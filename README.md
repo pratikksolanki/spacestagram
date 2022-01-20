@@ -1,15 +1,13 @@
 # 🛰️ Spacestagram
  
- Shopify Frontend Developer Intern Challenge Submission
+Here is my challenge submission for Shopify's Summer 2022 Front End developer internship! To build this, I used React, the NASA APOD API to retrive images and associating data as well as the [react-icons](https://www.npmjs.com/package/react-icons) library.
  
- [View project](https://spacestagram-summer22.netlify.app/)
+ [Link to project](https://spacestagram-summer22.netlify.app/)
  
  ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Install and Setup](#install-and-setup)
 
 
 ## Introduction
@@ -18,6 +16,7 @@ This web application was made for the Summer 2022 Shopify Frontend Developer Int
 
 ## Technologies Used
 - React
+- [NASA APOD API](https://api.nasa.gov/)
 - [react-icons](https://www.npmjs.com/package/react-icons)
 
 ## Project Structure
@@ -42,8 +41,6 @@ This web application was made for the Summer 2022 Shopify Frontend Developer Int
 |-- index.js
 ```
 
-## Screenshots
-in progress...
 
 
 
