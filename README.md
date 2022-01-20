@@ -20,8 +20,8 @@ This web application was made for the Summer 2022 Shopify Frontend Developer Int
 
 In addition to the core technical requirements of this challenge, this project:
 
-- Includes a loading state while a user waits for NASA’s API to return data
-- Includes a animation associated with the like action
+- Includes a loading state while a user waits for NASA’s API to return data.
+- Includes an animation associated with the like action.
 - Received a score of 100 on the Google Lighthouse benchmark for accessibility.
 - Is optimized to be responsive across many screen sizes.
 
