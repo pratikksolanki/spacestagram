@@ -10,9 +10,9 @@
     transition: all 0.3s ease-in-out;
 }
 
-.imageCard:hover{
+/* .imageCard:hover{
     box-shadow: rgba(41, 61, 88, 0.534) 0px 0px 48px 0px;
-}
+} */
 
 .imageTitleWrapper{
     display: flex;
