@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This web application was made for the Summer 2022 Shopify Frontend Developer Intern Challenge. It utilizes NASA's APOD API to display randomized images fetched from the API as well as information such as the title, date and explanation for each fetched image. Additionally, there is a loading animation while the user is waiting for images to get fetched and the user is given the ability to like and unlike images using an animating heart button.
+This web application was made for the Summer 2022 Shopify Frontend Developer Intern Challenge. It utilizes NASA's APOD API to display randomized images fetched from the API as well as information such as the title, date and image explanation. Additionally, there is a loading animation that is displayed while the user is waiting for images to get fetched and the user is given the ability to like and unlike images using an animating heart button.
 
 ## Technologies Used
 - React
