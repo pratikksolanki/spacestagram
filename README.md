@@ -24,7 +24,7 @@ This web application was made for the Summer 2022 Shopify Frontend Developer Int
 ```
 📁 src
 |
-|-- 📁 Components
+|-- 📁 components
 |   |-- FetchAPI.css
 |   |-- FetchAPI.jsx
 |   |-- Header.css
