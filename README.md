@@ -1,18 +1,30 @@
 # 🛰️ Spacestagram
  
-Here is my challenge submission for Shopify's Summer 2022 Front End developer internship! To build this, I used React, the NASA APOD API to retrive images and associating data as well as the [react-icons](https://www.npmjs.com/package/react-icons) library.
+Here is my challenge submission for Shopify's Summer 2022 Front End developer internship! To build this, I used React to build the front end, the NASA APOD API to retrive images and associating data as well as the [react-icons](https://www.npmjs.com/package/react-icons) library.
  
  [Link to project](https://spacestagram-summer22.netlify.app/)
  
  ## Table of Contents
 - [Introduction](#introduction)
+- [Core Features](#core-features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 
 
+
 ## Introduction
 
-This web application was made for the Summer 2022 Shopify Frontend Developer Intern Challenge. It utilizes NASA's APOD API to display randomized images fetched from the API as well as information such as the title, date and image explanation. Additionally, there is a loading animation that is displayed while the user is waiting for images to get fetched and the user is given the ability to like and unlike images using an animating heart button.
+This web application was made for the Summer 2022 Shopify Frontend Developer Intern Challenge. It utilizes NASA's APOD API to retrieve randomized images related to space as well as information such as the title, date and image description. Additionally, there is a loading animation that is displayed while the user is waiting for the API to retrieve data and the user is given the ability to like and unlike images using a heart button that displays an animation when clicked.
+
+## Added Features
+
+In addition to the core technical requirements of this challenge, this project:
+
+- Includes a loading state while a user waits for NASA’s API to return data
+- Includes a animation associated with the like action
+- Received a score of 100 on the Google Lighthouse benchmark for accessibility.
+- Is optimized to be responsive across many screen sizes.
+
 
 ## Technologies Used
 - React
