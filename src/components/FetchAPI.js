@@ -4,7 +4,11 @@ import Load from './Load';
 import Image from './Image';
 
 let rndInt = Math.floor(Math.random() * 20) + 50
-const nasaAPIURL = 'https://api.nasa.gov/planetary/apod?api_key=22KDfIqm7UjUDszkuCLjIzNJEMl3Lk00dwkbc4q3&count='+rndInt
+
+
+const API_KEY = process.env.REACT_APP_API_KEY;
+
+const nasaAPIURL = 'https://api.nasa.gov/planetary/apod?api_key='+API_KEY+'&count='+rndInt
 
 function FetchAPI() {
     const [images, setImages] = useState(); 
