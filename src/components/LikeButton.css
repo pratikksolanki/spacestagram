@@ -43,8 +43,20 @@
         transform: scale(1);
     }
 
-    100% {
+    90% {
         transform: scale(0.9);
+    }
+
+    92.5% {
+        transform: scale(0.95);
+    }
+    
+    95% {
+        transform: scale(0.975);
+    }
+
+    100% {
+        transform: scale(1.0);
     }
 
 }
